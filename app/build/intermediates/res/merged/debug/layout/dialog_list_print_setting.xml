@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="200dp"
+              android:layout_height="wrap_content"
+              android:background="@color/white"
+              android:orientation="vertical"
+              android:id="@+id/ll_dialog"
+        >
+
+    <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_blue_light"
+            android:text="选择/更换打印机"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            />
+
+
+    <ListView
+            android:id="@+id/dialog_listview_avaible"
+            android:layout_width="match_parent"
+            android:dividerHeight="1px"
+            android:layout_height="260dp"/>
+    <Button
+            android:id="@+id/dialog_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="搜索中..."
+            android:clickable="false"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@color/theme_blue"
+            />
+</LinearLayout>
+

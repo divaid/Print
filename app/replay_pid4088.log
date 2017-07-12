@@ -1,0 +1,31 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 178 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 409559 0 -1
+ciMethod java/lang/Object toString ()Ljava/lang/String; 0 0 1 0 -1
+ciMethod java/lang/String <init> ([CII)V 1929 1 5361 0 -1
+ciMethod java/lang/String valueOf (Ljava/lang/Object;)Ljava/lang/String; 97 1 12 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 913 1 3270 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1593 1 7389 0 -1
+ciMethod java/lang/AbstractStringBuilder append (I)Ljava/lang/AbstractStringBuilder; 0 0 7 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 721 1 2884 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/Object;)Ljava/lang/StringBuilder; 97 1 12 0 -1
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1401 1 6721 0 -1
+ciMethod java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 0 0 7 0 -1
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 769 1 2894 0 -1
+ciMethod java/util/ArrayList size ()I 1113 1 139 0 -1
+ciMethod java/util/ArrayList elementData (I)Ljava/lang/Object; 2113 1 589337 0 -1
+ciMethod java/util/ArrayList get (I)Ljava/lang/Object; 2113 1 581464 0 -1
+ciMethod java/util/ArrayList rangeCheck (I)V 2113 1 589209 0 -1
+ciMethod java/util/ArrayList outOfBoundsMsg (I)Ljava/lang/String; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 409559 orig 264 8 30 168 81 0 0 0 0 128 4 140 20 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 185 238 49 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/io/PrintStream write (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/io/PrintStream newLine ()V 0 0 1 0 -1
+ciMethod java/io/PrintStream print (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/io/PrintStream println (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/BitSet toString ()Ljava/lang/String; 0 0 1 0 -1
+ciMethodData java/lang/StringBuilder <init> ()V 2 2884 orig 264 8 30 168 81 0 0 0 0 0 127 147 20 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 90 0 0 0 81 87 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 3 0 0 0 0 0 data 2 0x30002 0xaea oops 0
+ciMethodData java/lang/AbstractStringBuilder <init> (I)V 2 3270 orig 264 8 30 168 81 0 0 0 0 232 66 147 20 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 114 0 0 0 161 98 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0xc54 oops 0
+ciMethodData java/lang/StringBuilder append (I)Ljava/lang/StringBuilder; 1 7 orig 264 8 30 168 81 0 0 0 0 216 134 147 20 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 2 0x20002 0x7 oops 0
+ciMethodData java/lang/AbstractStringBuilder append (I)Ljava/lang/AbstractStringBuilder; 1 7 orig 264 8 30 168 81 0 0 0 0 192 86 147 20 0 0 0 0 24 2 0 0 152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 200 0 0 0 255 255 255 255 7 0 3 0 0 0 0 0 data 25 0x30007 0x7 0x50 0x0 0x90005 0x0 0x0 0x0 0x0 0x0 0x100007 0x7 0x48 0x0 0x150002 0x0 0x1a0003 0x0 0x28 0x1e0002 0x7 0x2b0002 0x7 0x340002 0x7

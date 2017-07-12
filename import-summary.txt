@@ -1,0 +1,174 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\libraries\
+* .idea\libraries\core_3_1_01.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\uiDesigner.xml
+* .idea\workspace.xml
+* ant.properties
+* build.xml
+* out\
+* out\production\
+* out\production\print\
+* out\production\print\com\
+* out\production\print\com\weixing\
+* out\production\print\com\weixing\activity\
+* out\production\print\com\weixing\activity\base\
+* out\production\print\com\weixing\activity\base\BaseActivity.class
+* out\production\print\com\weixing\activity\print\
+* out\production\print\com\weixing\activity\print\PrintActivity$1.class
+* out\production\print\com\weixing\activity\print\PrintActivity$2.class
+* out\production\print\com\weixing\activity\print\PrintActivity$3.class
+* out\production\print\com\weixing\activity\print\PrintActivity$4.class
+* out\production\print\com\weixing\activity\print\PrintActivity.class
+* out\production\print\com\weixing\application\
+* out\production\print\com\weixing\application\PrintApplication$DownloadApkThread.class
+* out\production\print\com\weixing\application\PrintApplication.class
+* out\production\print\com\weixing\application\inter\
+* out\production\print\com\weixing\application\inter\IInitializeComponent$IInitFinishListener.class
+* out\production\print\com\weixing\application\inter\IInitializeComponent.class
+* out\production\print\com\weixing\dialog\
+* out\production\print\com\weixing\dialog\PrintSetDialog$1.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$2$1.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$2.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$3.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$4.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$5.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$6.class
+* out\production\print\com\weixing\dialog\PrintSetDialog$OnPrinterConnectListener.class
+* out\production\print\com\weixing\dialog\PrintSetDialog.class
+* out\production\print\com\weixing\print\
+* out\production\print\com\weixing\print\BuildConfig.class
+* out\production\print\com\weixing\print\R$attr.class
+* out\production\print\com\weixing\print\R$color.class
+* out\production\print\com\weixing\print\R$dimen.class
+* out\production\print\com\weixing\print\R$drawable.class
+* out\production\print\com\weixing\print\R$id.class
+* out\production\print\com\weixing\print\R$layout.class
+* out\production\print\com\weixing\print\R$string.class
+* out\production\print\com\weixing\print\R$style.class
+* out\production\print\com\weixing\print\R.class
+* out\production\print\com\weixing\print\adapter\
+* out\production\print\com\weixing\print\adapter\AvailableAdapter.class
+* out\production\print\com\weixing\print\inter\
+* out\production\print\com\weixing\print\inter\OnEditTextDialogListener.class
+* out\production\print\com\weixing\print\inter\OnScanFinishListener.class
+* out\production\print\com\weixing\print\inter\OnScanListener.class
+* out\production\print\com\weixing\print\manager\
+* out\production\print\com\weixing\print\manager\BluetoothDeviceManager$1.class
+* out\production\print\com\weixing\print\manager\BluetoothDeviceManager$2.class
+* out\production\print\com\weixing\print\manager\BluetoothDeviceManager$3.class
+* out\production\print\com\weixing\print\manager\BluetoothDeviceManager.class
+* out\production\print\com\weixing\print\manager\HandlerUtils$1.class
+* out\production\print\com\weixing\print\manager\HandlerUtils$2.class
+* out\production\print\com\weixing\print\manager\HandlerUtils.class
+* out\production\print\com\weixing\print\manager\PrintExceptionState.class
+* out\production\print\com\weixing\print\manager\PrintFormater.class
+* out\production\print\com\weixing\print\manager\PrinterManager$1.class
+* out\production\print\com\weixing\print\manager\PrinterManager$2.class
+* out\production\print\com\weixing\print\manager\PrinterManager$3.class
+* out\production\print\com\weixing\print\manager\PrinterManager.class
+* out\production\print\com\weixing\print\manager\ProductItem.class
+* out\production\print\com\weixing\print\port\
+* out\production\print\com\weixing\print\port\Port.class
+* out\production\print\com\weixing\print\printer\
+* out\production\print\com\weixing\print\printer\JQPrinter$1.class
+* out\production\print\com\weixing\print\printer\JQPrinter.class
+* out\production\print\com\weixing\print\printer\PrinterParam$1.class
+* out\production\print\com\weixing\print\printer\PrinterParam.class
+* out\production\print\com\weixing\print\printer\Printer_define$ALIGN.class
+* out\production\print\com\weixing\print\printer\Printer_define$FONT_ID.class
+* out\production\print\com\weixing\print\printer\Printer_define$PRINTER_MODEL.class
+* out\production\print\com\weixing\print\printer\Printer_define.class
+* out\production\print\com\weixing\print\printer\common\
+* out\production\print\com\weixing\print\printer\common\Code128.class
+* out\production\print\com\weixing\print\printer\common\ImageConvert.class
+* out\production\print\com\weixing\print\printer\esc\
+* out\production\print\com\weixing\print\printer\esc\Barcode$ESC_BAR_2D.class
+* out\production\print\com\weixing\print\printer\esc\Barcode.class
+* out\production\print\com\weixing\print\printer\esc\BaseESC.class
+* out\production\print\com\weixing\print\printer\esc\CardReader$CARD_CMD.class
+* out\production\print\com\weixing\print\printer\esc\CardReader$CARD_ERROR.class
+* out\production\print\com\weixing\print\printer\esc\CardReader$CARD_TYPE_SUB_IC.class
+* out\production\print\com\weixing\print\printer\esc\CardReader.class
+* out\production\print\com\weixing\print\printer\esc\ESC$BAR_TEXT_POS.class
+* out\production\print\com\weixing\print\printer\esc\ESC$BAR_TEXT_SIZE.class
+* out\production\print\com\weixing\print\printer\esc\ESC$BAR_UNIT.class
+* out\production\print\com\weixing\print\printer\esc\ESC$CARD_TYPE_MAIN.class
+* out\production\print\com\weixing\print\printer\esc\ESC$FONT_HEIGHT.class
+* out\production\print\com\weixing\print\printer\esc\ESC$IMAGE_ENLARGE.class
+* out\production\print\com\weixing\print\printer\esc\ESC$IMAGE_MODE.class
+* out\production\print\com\weixing\print\printer\esc\ESC$LINE_POINT.class
+* out\production\print\com\weixing\print\printer\esc\ESC$TEXT_ENLARGE.class
+* out\production\print\com\weixing\print\printer\esc\ESC.class
+* out\production\print\com\weixing\print\printer\esc\Graphic.class
+* out\production\print\com\weixing\print\printer\esc\Image$IMAGE_MODE.class
+* out\production\print\com\weixing\print\printer\esc\Image.class
+* out\production\print\com\weixing\print\printer\esc\Text$1.class
+* out\production\print\com\weixing\print\printer\esc\Text.class
+* out\production\print\com\weixing\print\printer\port\
+* out\production\print\com\weixing\print\printer\port\Port.class
+* out\production\print\com\weixing\print\receiver\
+* out\production\print\com\weixing\print\receiver\FoundBroadcastReceiver.class
+* out\production\print\com\weixing\print\receiver\LoseConnReceiver.class
+* out\production\print\com\weixing\print\ui\
+* out\production\print\com\weixing\print\ui\ProductItem.class
+* out\production\print\com\weixing\print\utils\
+* out\production\print\com\weixing\print\utils\PrintUtils.class
+* out\production\print\com\weixing\receiver\
+* out\production\print\com\weixing\receiver\ActivityFinishReceiver.class
+* out\production\print\com\weixing\receiver\NetStateReceiver.class
+* out\production\print\com\weixing\receiver\ScreenStateReceiver$onScreenStateChangeListener.class
+* out\production\print\com\weixing\receiver\ScreenStateReceiver.class
+* out\production\print\com\weixing\utils\
+* out\production\print\com\weixing\utils\CreateCodeBitmap.class
+* out\production\print\com\weixing\utils\DensityUtil.class
+* out\production\print\com\weixing\utils\ToastUtil$1.class
+* out\production\print\com\weixing\utils\ToastUtil.class
+* out\production\print\com\weixing\view\
+* out\production\print\com\weixing\view\LabelEditText$ClickArea.class
+* out\production\print\com\weixing\view\LabelEditText$OnIconClickListener.class
+* out\production\print\com\weixing\view\LabelEditText.class
+* out\production\print\print.apk
+* out\production\print\print.unaligned.apk
+* print.iml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

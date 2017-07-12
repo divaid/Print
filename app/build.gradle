@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.weixing.print"
+        minSdkVersion 15
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/core-3.2.1.jar')
+    compile 'com.android.support:support-v4:23.4.0'
+}

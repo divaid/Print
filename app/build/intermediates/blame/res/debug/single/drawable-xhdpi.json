@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\Print\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_scan.png",
+        "source": "C:\\Users\\weixi\\Documents\\Print\\app\\src\\main\\res\\drawable-xhdpi\\icon_scan.png"
+    },
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\Print\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_cancel.png",
+        "source": "C:\\Users\\weixi\\Documents\\Print\\app\\src\\main\\res\\drawable-xhdpi\\icon_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\Print\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\weixi\\Documents\\Print\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\print1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_scan.png",
+        "source": "C:\\Users\\weixi\\Documents\\print1\\app\\src\\main\\res\\drawable-xhdpi\\icon_scan.png"
+    },
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\print1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\icon_cancel.png",
+        "source": "C:\\Users\\weixi\\Documents\\print1\\app\\src\\main\\res\\drawable-xhdpi\\icon_cancel.png"
+    },
+    {
+        "merged": "C:\\Users\\weixi\\Documents\\print1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\weixi\\Documents\\print1\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    }
+]

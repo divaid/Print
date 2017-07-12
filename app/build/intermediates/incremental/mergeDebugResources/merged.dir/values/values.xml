@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000</color>
+    <color name="theme_blue">#6AA5E5</color>
+    <color name="theme_blue_bright">#419BF9</color>
+    <color name="translucence">#80000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="text_eighteen">18sp</dimen>
+    <dimen name="text_twenty">20sp</dimen>
+    <dimen name="twenty">20dp</dimen>
+    <string name="app_name">print</string>
+    <string name="insert_hint">请输入打印内容</string>
+    <string name="print_btn">打印条码</string>
+    <string name="printqr_btn">打印二维码</string>
+    <string name="setting_btn">设置打印机</string>
+    <style name="BaseTheme" parent="android:Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:editTextStyle">@style/Widget.EditText.Black</item>
+        <!--<item name="android:windowSoftInputMode">stateHidden</item>-->
+    </style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/translucence</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!--<item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>-->
+    </style>
+    <style name="Widget.EditText.Black" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/theme_blue_bright</item>
+    </style>
+</resources>

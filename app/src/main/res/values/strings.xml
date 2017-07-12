@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">print</string>
+
+    <string name="insert_hint">请输入打印内容</string>
+    <string name="setting_btn">设置打印机</string>
+    <string name="print_btn">打印条码</string>
+    <string name="printqr_btn">打印二维码</string>
+</resources>

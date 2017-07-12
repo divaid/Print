@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\weixi\Documents\print1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\weixi\Documents\print1\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_ad5e33d0539e2d005e721812f46647b10aec422f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\weixi\Documents\print1\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\weixi\Documents\print1\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_2a8ad28fabd95ee1b2767de1dbd5dacea310bd33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\weixi\Documents\print1\app\libs\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\weixi\Documents\print1\app\build\intermediates\pre-dexed\debug\core-3.2.1_48e767e344f32baf081fdbae4e0196bbf12d81dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\weixi\Documents\tools_az\sdk\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\weixi\Documents\print1\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_2c9dffd735a316c9c433b9a093b5c7122a7040e5.jar" />
+    </item>
+
+</items>

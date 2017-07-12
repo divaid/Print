@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#fff"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/print_ed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFF"
+                android:cursorVisible="true"
+                android:gravity="center"
+                android:hint="@string/insert_hint"
+                android:minHeight="140dp"
+                android:textColor="@color/black"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/text_twenty" />
+
+            <ImageView
+                android:id="@+id/print_content_img"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:scaleType="fitCenter"
+                android:visibility="invisible" />
+
+            <LinearLayout
+                android:id="@+id/bottom_bar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/theme_blue"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/print_setting"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/setting_btn"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_eighteen"
+                    android:textStyle="bold"
+
+                    />
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/print"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/print_btn"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_eighteen"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+
+                <TextView
+                    android:id="@+id/printqr"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/printqr_btn"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_eighteen"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
